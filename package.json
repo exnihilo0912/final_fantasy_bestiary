@@ -1,0 +1,8 @@
+{
+  "name": "final_fantasy_bestiary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:exnihilo0912/final_fantasy_bestiary.git",
+  "author": "Adam EMMANUEL <adam.emmanuel@tridge.com>",
+  "license": "MIT"
+}
