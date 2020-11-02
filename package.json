@@ -6,6 +6,8 @@
   "author": "Adam EMMANUEL <adam.emmanuel@tridge.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
     "mongodb": "^3.6.2"
   }
 }
