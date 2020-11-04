@@ -11,6 +11,7 @@
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.5",
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-es2016": "^7.0.0-beta.53",
     "mongodb": "^3.6.2"
