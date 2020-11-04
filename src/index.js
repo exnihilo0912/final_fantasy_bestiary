@@ -1,6 +1,8 @@
 import { MongoClient } from 'mongodb';
 import React, { useState, useEffect } from 'react';
 import { render, Text, Box } from 'ink';
+import TextInput from 'ink-text-input';
+
 
 const uri = "mongodb+srv://console:console1234@main.rysce.mongodb.net/FinalFantasyDatabase?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
@@ -121,7 +123,14 @@ const App = (props) => {
       </Box>
       <Box width="100%" height={30}>
         <Equipment item={equipment} />
-        <Box width="30%" borderStyle="single" flexDirection="column" justifyContent="center" alignItems="center"><Text>Menu</Text></Box>
+        <Box width="30%" flexDirection="column" borderStyle="single">
+          <Box borderStyle="single" width="100%" height="10%">
+            <TextInput value={search} onChange={setSearch} />
+          </Box>
+          <Box height="90%" width="100%">
+            <Text>Select</Text>
+          </Box>
+        </Box>
       </Box>
     </Box>
   );
